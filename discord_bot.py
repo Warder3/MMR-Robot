@@ -17,4 +17,4 @@ async def on_message(message):
     if (message.content.startswith('$mmr')):
         await message.channel.send(find_mmr(message.content.split(' ', 1)[1]))
 
-client.run('TOKEN_DISCORD')
+client.run(TOKEN_DISCORD)
